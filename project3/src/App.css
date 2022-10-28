@@ -1,0 +1,212 @@
+nav {
+  display: flex;
+  top: 0;
+  height: 6.5rem;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  padding: 0 4rem;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  background-color: #131f23;
+}
+
+.nav-ul ul {
+  display: flex;
+  position: relative;
+  right: 55%;
+}
+
+.nav-ul ul li {
+  padding: 0 10px;
+  color: white;
+  list-style: none;
+}
+
+.search {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.sign-up {
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 7px;
+  margin-left: 8px;
+  width: 80px;
+}
+
+.brand a {
+  text-decoration: none;
+  color: rgb(179, 136, 8) !important;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.wrapper {
+  display: grid;
+  gap: 40px 90px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1600px;
+  margin: 152px auto;
+}
+
+.box-shadow {
+  color: gray;
+  padding: 20px 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card_icon {
+  font-size: medium;
+  text-align: center;
+  background-color: #131f23;
+  color: white;
+  width: 170px;
+  padding: 6px;
+  margin-left: -29px;
+  margin-top: -5px;
+  position: absolute;
+}
+
+footer {
+  background-color: #131f23;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 44px 0px;
+  color: white;
+  margin-top: 165px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+.footer_logo .logo {
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+footer ul li {
+  color: grey;
+  list-style: none;
+  margin: 15px -40px;
+}
+
+footer h1 {
+  font-size: 23px;
+}
+label,
+td,
+th {
+  color: gray;
+}
+
+.SignIn {
+  position: relative;
+  top: 110px;
+  padding: 100px;
+  display: flex;
+  width: 1500px;
+  margin: auto;
+}
+
+.form {
+  margin-top: 25px;
+  padding: 40px;
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid black;
+  height: 67px;
+  margin-top: 15px;
+  width: 521px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(241, 207, 12, 0.664);
+
+  width: 80px;
+}
+
+.right {
+  border: 1px solid blue;
+  margin-top: -19px;
+  margin-right: -16px;
+  margin-bottom: -20px;
+  margin-left: -210px;
+  display: flex;
+  justify-content: center;
+}
+
+.right img {
+  height: 800px;
+  width: 800px;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  margin-left: 30px;
+  font-size: 23px;
+  position: absolute;
+  margin-top: 25px;
+  color: rgb(219, 227, 227);
+}
+
+.fa-envelope,
+.fa-lock {
+  position: absolute;
+  color: rgba(122, 122, 224, 0.433);
+  margin-top: 42px;
+  font-size: 23px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 131px;
+  margin-top: 79px;
+}
+
+.social-icons {
+  display: flex;
+}
+.social-icons li {
+  list-style: none;
+  padding: 11px;
+  border-radius: 50px;
+  margin: 5px;
+  font-size: 27px;
+  color: white;
+}
+
+.google {
+  background-color: red;
+}
+
+.fb {
+  background-color: blue;
+  width: 37px;
+}
+
+.ln {
+  background-color: #117995;
+  width: 37px;
+}
+
+.fa-facebook-square,
+.fa-linkedin {
+  margin-left: 8px;
+}
